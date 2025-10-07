@@ -31,4 +31,4 @@ Va a ser una aplicación de escritorio en Windows Forms para gestionar pedidos e
 - Perez Facundo
 
 ## Diagrama de Clases:
-<img width="923" height="615" alt="image" src="https://github.com/user-attachments/assets/697691b6-7c54-4d77-8bb3-3c1868df5530" />
+[TP_Sistema-pedidos-comida-rapida.pdf](https://github.com/user-attachments/files/22754024/TP_Sistema-pedidos-comida-rapida.pdf)

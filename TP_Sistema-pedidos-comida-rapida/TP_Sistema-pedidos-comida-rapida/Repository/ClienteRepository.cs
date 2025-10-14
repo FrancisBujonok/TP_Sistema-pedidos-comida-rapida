@@ -13,7 +13,7 @@ namespace TP_Sistema_pedidos_comida_rapida.Repository
         public static void GuardarUsuario(Cliente cliente)
         {
             using var context = new AplicationDbContext();
-
+            //un comentario
             context.Clientes.Add(cliente);
             context.SaveChanges();
         }

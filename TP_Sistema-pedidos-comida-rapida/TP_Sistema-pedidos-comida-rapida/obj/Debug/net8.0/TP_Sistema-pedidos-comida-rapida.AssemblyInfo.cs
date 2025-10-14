@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP_Sistema-pedidos-comida-rapida")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+329ffaf1d0e12bb13262b3e180fcaff9753d7ca8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP_Sistema-pedidos-comida-rapida")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP_Sistema-pedidos-comida-rapida")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

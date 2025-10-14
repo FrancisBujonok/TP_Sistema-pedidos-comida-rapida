@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP_Sistema-pedidos-comida-r
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu de Gestion", "Menu de Gestion\Menu de Gestion.csproj", "{8CFAFF81-8A10-4698-8444-AD4395BCC389}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{FDDA4D5C-2C8E-468A-8C1C-CF68795876EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8CFAFF81-8A10-4698-8444-AD4395BCC389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CFAFF81-8A10-4698-8444-AD4395BCC389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CFAFF81-8A10-4698-8444-AD4395BCC389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDA4D5C-2C8E-468A-8C1C-CF68795876EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDA4D5C-2C8E-468A-8C1C-CF68795876EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDA4D5C-2C8E-468A-8C1C-CF68795876EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDA4D5C-2C8E-468A-8C1C-CF68795876EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

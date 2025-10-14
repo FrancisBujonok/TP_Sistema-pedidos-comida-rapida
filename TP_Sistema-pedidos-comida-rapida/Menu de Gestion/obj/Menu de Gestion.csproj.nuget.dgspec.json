@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leona\\OneDrive\\Documentos\\Ejercicios de Programacion\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\Menu de Gestion.csproj": {}
+    "C:\\Users\\Pablo Fontanessi\\Desktop\\Clases\\TP\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\Menu de Gestion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leona\\OneDrive\\Documentos\\Ejercicios de Programacion\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\Menu de Gestion.csproj": {
+    "C:\\Users\\Pablo Fontanessi\\Desktop\\Clases\\TP\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\Menu de Gestion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leona\\OneDrive\\Documentos\\Ejercicios de Programacion\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\Menu de Gestion.csproj",
+        "projectUniqueName": "C:\\Users\\Pablo Fontanessi\\Desktop\\Clases\\TP\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\Menu de Gestion.csproj",
         "projectName": "Menu de Gestion",
-        "projectPath": "C:\\Users\\leona\\OneDrive\\Documentos\\Ejercicios de Programacion\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\Menu de Gestion.csproj",
-        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leona\\OneDrive\\Documentos\\Ejercicios de Programacion\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\obj\\",
+        "projectPath": "C:\\Users\\Pablo Fontanessi\\Desktop\\Clases\\TP\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\Menu de Gestion.csproj",
+        "packagesPath": "C:\\Users\\Pablo Fontanessi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pablo Fontanessi\\Desktop\\Clases\\TP\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pablo Fontanessi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\leona\\OneDrive\\Documentos\\Ejercicios de Programacion\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj": {
-                "projectPath": "C:\\Users\\leona\\OneDrive\\Documentos\\Ejercicios de Programacion\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj"
+              "C:\\Users\\Pablo Fontanessi\\Desktop\\Clases\\TP\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj": {
+                "projectPath": "C:\\Users\\Pablo Fontanessi\\Desktop\\Clases\\TP\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj"
               }
             }
           }
@@ -72,24 +72,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leona\\OneDrive\\Documentos\\Ejercicios de Programacion\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj": {
+    "C:\\Users\\Pablo Fontanessi\\Desktop\\Clases\\TP\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leona\\OneDrive\\Documentos\\Ejercicios de Programacion\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj",
+        "projectUniqueName": "C:\\Users\\Pablo Fontanessi\\Desktop\\Clases\\TP\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj",
         "projectName": "TP_Sistema-pedidos-comida-rapida",
-        "projectPath": "C:\\Users\\leona\\OneDrive\\Documentos\\Ejercicios de Programacion\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj",
-        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leona\\OneDrive\\Documentos\\Ejercicios de Programacion\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\obj\\",
+        "projectPath": "C:\\Users\\Pablo Fontanessi\\Desktop\\Clases\\TP\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj",
+        "packagesPath": "C:\\Users\\Pablo Fontanessi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pablo Fontanessi\\Desktop\\Clases\\TP\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pablo Fontanessi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -153,7 +153,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

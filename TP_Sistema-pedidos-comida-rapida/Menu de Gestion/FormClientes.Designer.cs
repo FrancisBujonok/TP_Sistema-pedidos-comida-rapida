@@ -43,8 +43,8 @@
             Eliminar_Cliente = new Button();
             label6 = new Label();
             DniCliente = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            DniEliminar = new TextBox();
+            DniModificar = new TextBox();
             label7 = new Label();
             label8 = new Label();
             SuspendLayout();
@@ -177,19 +177,19 @@
             DniCliente.Size = new Size(100, 23);
             DniCliente.TabIndex = 13;
             // 
-            // textBox2
+            // DniEliminar
             // 
-            textBox2.Location = new Point(595, 210);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 15;
+            DniEliminar.Location = new Point(595, 210);
+            DniEliminar.Name = "DniEliminar";
+            DniEliminar.Size = new Size(100, 23);
+            DniEliminar.TabIndex = 15;
             // 
-            // textBox3
+            // DniModificar
             // 
-            textBox3.Location = new Point(595, 65);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 16;
+            DniModificar.Location = new Point(595, 65);
+            DniModificar.Name = "DniModificar";
+            DniModificar.Size = new Size(100, 23);
+            DniModificar.TabIndex = 16;
             // 
             // label7
             // 
@@ -216,8 +216,8 @@
             ClientSize = new Size(800, 450);
             Controls.Add(label8);
             Controls.Add(label7);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
+            Controls.Add(DniModificar);
+            Controls.Add(DniEliminar);
             Controls.Add(label6);
             Controls.Add(DniCliente);
             Controls.Add(Eliminar_Cliente);
@@ -256,8 +256,8 @@
         private Button Eliminar_Cliente;
         private Label label6;
         private TextBox DniCliente;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox DniEliminar;
+        private TextBox DniModificar;
         private Label label7;
         private Label label8;
     }

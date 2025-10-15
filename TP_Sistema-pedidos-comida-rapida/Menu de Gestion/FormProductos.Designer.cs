@@ -86,6 +86,7 @@
             textNombre.Name = "textNombre";
             textNombre.Size = new Size(171, 23);
             textNombre.TabIndex = 4;
+            textNombre.TextChanged += textNombre_TextChanged;
             // 
             // textPrecio
             // 
@@ -116,6 +117,7 @@
             buttonAgregar.TabIndex = 8;
             buttonAgregar.Text = "Agregar";
             buttonAgregar.UseVisualStyleBackColor = true;
+            buttonAgregar.Click += buttonAgregar_Click;
             // 
             // buttonModificar
             // 
@@ -156,7 +158,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 325);
+            ClientSize = new Size(835, 358);
             Controls.Add(dataGridView1);
             Controls.Add(buttonLimpiar);
             Controls.Add(buttonEliminar);
@@ -172,6 +174,7 @@
             Controls.Add(labelNombre);
             Name = "FormProductos";
             Text = "FormProductos";
+            Load += FormProductos_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

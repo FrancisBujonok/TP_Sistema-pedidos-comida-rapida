@@ -63,11 +63,12 @@ namespace Menu_de_Gestion
             }
             else
             {
-
+                
                 Cliente nuevoCliente = new Cliente()
                 {
                     Nombre = nombreCliente,
                     Apellido = apellidoCliente,
+                    Dni = dniCliente,
                     Direccion = direccion,
                     Telefono = telefonoCliente
                 };
@@ -75,8 +76,6 @@ namespace Menu_de_Gestion
                 ClienteRepository.GuardarUsuario(nuevoCliente);
                 MessageBox.Show("Cliente Guardado");
             }
-
-
         }
 
         private void FormClientes_Load(object sender, EventArgs e)
@@ -96,6 +95,15 @@ namespace Menu_de_Gestion
         private void Eliminar_Cliente_Click(object sender, EventArgs e)
         {
             //apartado boton eliminar cliente
+            string dni = DniEliminar.Text;
+            if (string.IsNullOrEmpty(dni))
+            {
+                MessageBox.Show("completa el campo");
+            }
+            else
+            {
+               var CLIENTE= ClienteRepository.ConsultarCliente(dni);    
+            }
         }
     }
 }

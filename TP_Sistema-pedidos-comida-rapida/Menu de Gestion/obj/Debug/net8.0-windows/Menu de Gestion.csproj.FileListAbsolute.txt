@@ -128,3 +128,4 @@ C:\Users\Laboratorio_02\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sis
 C:\Users\Laboratorio_02\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\obj\Debug\net8.0-windows\Menu de Gestion.pdb
 C:\Users\Laboratorio_02\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\obj\Debug\net8.0-windows\Menu de Gestion.genruntimeconfig.cache
 C:\Users\Laboratorio_02\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\obj\Debug\net8.0-windows\ref\Menu de Gestion.dll
+C:\Users\Laboratorio_02\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\obj\Debug\net8.0-windows\Menu_de_Gestion.FormModificarClientes.resources

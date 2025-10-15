@@ -17,5 +17,11 @@ namespace TP_Sistema_pedidos_comida_rapida.Repository
             context.Clientes.Add(cliente);
             context.SaveChanges();
         }
+
+        public static void ConsultarCliente(string dni)
+        {
+            using var context = new AplicationDbContext();
+            context.Clientes.FirstOrDefault
+        }
     }
 }

@@ -12,16 +12,28 @@ namespace Menu_de_Gestion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Prueba Creacion Usuario.
-            Cliente nuevoCliente = new Cliente()
-            {
-                Nombre = "Juan",
-                Apellido = "Perez",
-                Direccion = "AV pepe Argento",
-                Telefono = "3493 789234"
+            FormClientes form = new FormClientes(); //esto crea el form
+            form.ShowDialog(); //esto lo muestra
+            this.Hide(); //esto esconde el actual mientras se abre el otro
+        }
 
-            };
-            ClienteRepository.GuardarUsuario(nuevoCliente);
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormProductos form = new FormProductos();
+            form.ShowDialog();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormPedidos form = new FormPedidos();
+            form.ShowDialog();
+            this.Hide();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

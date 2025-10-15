@@ -40,6 +40,12 @@ namespace Menu_de_Gestion
             {
                 datosVacio = true;
             }
+            string dniCliente = DniCliente.Text;
+            if (string.IsNullOrEmpty(dniCliente))
+            {
+                datosVacio = true;
+            }
+
             string direccion = DireccionCliente.Text;
             if (string.IsNullOrEmpty(direccion))
             {
@@ -50,7 +56,7 @@ namespace Menu_de_Gestion
             {
                 datosVacio = true;
             }
-
+            
             if (datosVacio == true)
             {
                 MessageBox.Show("Algunos de los campos estan vacios.");
@@ -76,6 +82,20 @@ namespace Menu_de_Gestion
         private void FormClientes_Load(object sender, EventArgs e)
         {
             //Dni no hace nada.
+        }
+
+        private void Modificar_Cliente_Click(object sender, EventArgs e)
+        {
+            //apartado boton modificar cliente
+            FormModificarClientes form = new FormModificarClientes();
+            form.ShowDialog();
+            this.Hide();
+
+        }
+
+        private void Eliminar_Cliente_Click(object sender, EventArgs e)
+        {
+            //apartado boton eliminar cliente
         }
     }
 }

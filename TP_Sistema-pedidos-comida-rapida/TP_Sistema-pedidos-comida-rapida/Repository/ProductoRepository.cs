@@ -13,7 +13,7 @@ namespace TP_Sistema_pedidos_comida_rapida.Repository
         // Método para guardar un nuevo producto
         public static void GuardarProducto(Producto producto)
         {
-            using var context = new AplicacionDbContext();
+            using var context = new AplicationDbContext();
             context.Productos.Add(producto);
             context.SaveChanges();
         }
@@ -21,28 +21,28 @@ namespace TP_Sistema_pedidos_comida_rapida.Repository
         // Método para obtener todos los productos
         public static List<Producto> ObtenerProductos()
         {
-            using var context = new AplicacionDbContext();
+            using var context = new AplicationDbContext();
             return context.Productos.ToList();
         }
 
         // Método para buscar un producto por su ID
         public static Producto ObtenerPorId(int id)
         {
-            using var context = new AplicacionDbContext();
-            return context.Productos.FirstOrDefault(p => p.IdProducto == id);
+            using var context = new AplicationDbContext();
+            return context.Productos.FirstOrDefault(p => p.ID == id);
         }
 
         // Método para modificar un producto existente
         public static void ModificarProducto(Producto producto)
         {
-            using var context = new AplicacionDbContext();
+            using var context = new AplicationDbContext();
             context.Productos.Update(producto);
             context.SaveChanges();
         }
         public static void EliminarProducto(int id)
         {
-            using var context = new AplicacionDbContext();
-            var producto = context.Productos.FirstOrDefault(p => p.IdProducto == id);
+            using var context = new AplicationDbContext();
+            var producto = context.Productos.FirstOrDefault(p => p.ID == id);
             if (producto != null)
             {
                 context.Productos.Remove(producto);

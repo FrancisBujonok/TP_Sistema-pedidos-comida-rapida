@@ -69,17 +69,34 @@ namespace Menu_de_Gestion
         private void buttonAgregar_Click(object sender, EventArgs e)
         {
             bool datosVacio = false;
-            string nombreProducto = Nombreproducto.Text;
+            string nombreProducto = textNombre.Text;
             if (string.IsNullOrEmpty(nombreProducto))
             {
                 datosVacio = true;
             }
 
-            decimal Precio = precio.Text;
-            if (decimal.IsNullOrEmpty(Precio))
+            decimal Precio;
+
+            string precioTexto = textPrecio.Text;
+            if(string.IsNullOrEmpty(precioTexto))
             {
                 datosVacio = true;
+
             }
+            else
+            {
+                if (decimal.TryParse(precioTexto, out Precio))
+                {
+                    if (Precio < 0)
+                    {
+                        datosVacio = true;
+                        MessageBox.Show("El precio no puede ser negativo.");
+                    }
+                }
+            }
+            
+            
+            
             string Categoria = categoria.Text;
             if (string.IsNullOrEmpty(Categoria))
             {

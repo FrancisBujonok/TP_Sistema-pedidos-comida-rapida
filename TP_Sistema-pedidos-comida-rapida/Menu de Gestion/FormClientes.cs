@@ -86,9 +86,32 @@ namespace Menu_de_Gestion
         private void Modificar_Cliente_Click(object sender, EventArgs e)
         {
             //apartado boton modificar cliente
-            FormModificarClientes form = new FormModificarClientes();
+            string dni = DniModificar.Text;
+            if (string.IsNullOrEmpty(dni))
+            {
+                MessageBox.Show("completa el campo");
+                return;
+            }
+            else
+            {
+                var CLIENTE = ClienteRepository.ConsultarCliente(dni);
+                if (CLIENTE == null)
+                {
+                    MessageBox.Show("No se encontro el cliente");
+                    return;
+                }
+                else
+                {
+                    MessageBox.Show("Cliente encontrado");
+
+                }
+            }
+
+                FormModificarClientes form = new FormModificarClientes();
             form.ShowDialog();
             this.Hide();
+
+
 
         }
 

@@ -75,7 +75,7 @@ namespace Menu_de_Gestion
                 datosVacio = true;
             }
 
-            decimal Precio;
+            decimal Precio=0;
 
             string precioTexto = textPrecio.Text;
             if(string.IsNullOrEmpty(precioTexto))
@@ -97,14 +97,14 @@ namespace Menu_de_Gestion
             
             
             
-            string Categoria = categoria.Text;
+            string Categoria = textCategoria.Text;
             if (string.IsNullOrEmpty(Categoria))
             {
                 datosVacio = true;
             }
-
-            int Stock = stock.Text;
-            if (int.IsNullOrEmpty(Stock))
+            string stockTexto = textStock.Text;
+            int Stock ;
+            if (string.IsNullOrEmpty(stockTexto))
             {
                 datosVacio = true;
             }
@@ -115,17 +115,27 @@ namespace Menu_de_Gestion
             }
             else
             {
-
-                Producto nuevoProducto = new Producto()
+                if (!int.TryParse(stockTexto, out Stock) || Stock < 0)
                 {
-                    Nombre = nombreProducto,
-                    Precio = Precio,
-                    Categoria = Categoria,
-                    Stock = Stock
-                };
+                    MessageBox.Show("Ingrese un stock válido.");
+                    return;
+                }
+                else
+                {
+                    Producto nuevoProducto = new Producto()
+                    {
+                        Nombre = nombreProducto,
+                        Precio = Precio,
+                        Categoria = Categoria,
+                        Stock = Stock,
+                        
+                    };
+                    ProductoRepository.GuardarProducto(nuevoProducto);
+                    MessageBox.Show("Producto Guardado");
+                }
+                    
 
-                ClienteRepository.GuardarUsuario(nuevoProducto);
-                MessageBox.Show("Producto Guardado");
+                
             }
         }
     }

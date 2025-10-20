@@ -19,6 +19,7 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Apellido = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Dni = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Direccion = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Telefono = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
@@ -51,7 +52,9 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
                     NumeroPedido = table.Column<int>(type: "int", nullable: false),
                     Fecha = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Estado = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Total = table.Column<double>(type: "float", nullable: false)
+                    Total = table.Column<double>(type: "float", nullable: false),
+                    DniCliente = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -65,8 +68,9 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Precio = table.Column<double>(type: "float", nullable: false),
-                    Categoria = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Precio = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Categoria = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Stock = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

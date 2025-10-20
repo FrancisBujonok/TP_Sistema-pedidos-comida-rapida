@@ -144,3 +144,57 @@ C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Si
 C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\obj\Debug\net8.0-windows\Menu de Gestion.dll
 C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\obj\Debug\net8.0-windows\refint\Menu de Gestion.dll
 C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\obj\Debug\net8.0-windows\Menu de Gestion.pdb
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Menu de Gestion.exe
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Menu de Gestion.deps.json
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Menu de Gestion.runtimeconfig.json
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Menu de Gestion.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Menu de Gestion.pdb
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\TP_Sistema-pedidos-comida-rapida.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\TP_Sistema-pedidos-comida-rapida.pdb
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\obj\Debug\net8.0-windows\Menu de .74554B45.Up2Date
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\obj\Debug\net8.0-windows\Menu de Gestion.genruntimeconfig.cache
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\obj\Debug\net8.0-windows\ref\Menu de Gestion.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\obj\Debug\net8.0-windows\Menu_de_Gestion.FormEliminarClientes.resources

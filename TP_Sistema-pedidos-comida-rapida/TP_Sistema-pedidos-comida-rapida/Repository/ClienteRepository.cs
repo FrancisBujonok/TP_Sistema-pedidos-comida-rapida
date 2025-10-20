@@ -24,5 +24,37 @@ namespace TP_Sistema_pedidos_comida_rapida.Repository
             var cliente = context.Clientes.FirstOrDefault(C => C.Dni == dni);
             return cliente;
         }
+        public static void ModificarCliente(Cliente cliente)
+        {
+            //remplazar el cliente existente con el nuevo cliente, buscar por dni
+            using var context = new AplicationDbContext();
+            var clienteExistente = context.Clientes.FirstOrDefault(C => C.Dni == cliente.Dni);
+            if (clienteExistente == null)
+            {
+                throw new Exception("El cliente no existe.");
+            }
+            else
+            {
+                clienteExistente.Nombre = cliente.Nombre;
+                clienteExistente.Apellido = cliente.Apellido;
+                clienteExistente.Direccion = cliente.Direccion;
+                clienteExistente.Telefono = cliente.Telefono;
+                context.SaveChanges();
+            }
+        }
+        public static void ElminarCliente(string dni)
+        {
+            using var context = new AplicationDbContext();
+            var clienteExistente = context.Clientes.FirstOrDefault(C => C.Dni == dni);
+            if (clienteExistente == null)
+            {
+                throw new Exception("El cliente no existe.");
+            }
+            else
+            {
+                context.Clientes.Remove(clienteExistente);
+                context.SaveChanges();
+            }
+        }
     }
 }

@@ -43,46 +43,47 @@
             Eliminar_Cliente = new Button();
             label6 = new Label();
             DniCliente = new TextBox();
-            DniEliminar = new TextBox();
-            DniModificar = new TextBox();
-            label7 = new Label();
-            label8 = new Label();
+            button2 = new Button();
             SuspendLayout();
             // 
             // NombreCliente
             // 
-            NombreCliente.Location = new Point(93, 61);
+            NombreCliente.Location = new Point(106, 81);
+            NombreCliente.Margin = new Padding(3, 4, 3, 4);
             NombreCliente.Name = "NombreCliente";
-            NombreCliente.Size = new Size(100, 23);
+            NombreCliente.Size = new Size(177, 27);
             NombreCliente.TabIndex = 0;
             // 
             // ApellidoCliente
             // 
-            ApellidoCliente.Location = new Point(93, 101);
+            ApellidoCliente.Location = new Point(106, 135);
+            ApellidoCliente.Margin = new Padding(3, 4, 3, 4);
             ApellidoCliente.Name = "ApellidoCliente";
-            ApellidoCliente.Size = new Size(100, 23);
+            ApellidoCliente.Size = new Size(177, 27);
             ApellidoCliente.TabIndex = 1;
             // 
             // DireccionCliente
             // 
-            DireccionCliente.Location = new Point(93, 180);
+            DireccionCliente.Location = new Point(106, 240);
+            DireccionCliente.Margin = new Padding(3, 4, 3, 4);
             DireccionCliente.Name = "DireccionCliente";
-            DireccionCliente.Size = new Size(100, 23);
+            DireccionCliente.Size = new Size(177, 27);
             DireccionCliente.TabIndex = 2;
             // 
             // TelefonoCliente
             // 
-            TelefonoCliente.Location = new Point(93, 219);
+            TelefonoCliente.Location = new Point(106, 292);
+            TelefonoCliente.Margin = new Padding(3, 4, 3, 4);
             TelefonoCliente.Name = "TelefonoCliente";
-            TelefonoCliente.Size = new Size(100, 23);
+            TelefonoCliente.Size = new Size(177, 27);
             TelefonoCliente.TabIndex = 3;
             // 
             // Nombre
             // 
             Nombre.AutoSize = true;
-            Nombre.Location = new Point(30, 65);
+            Nombre.Location = new Point(34, 87);
             Nombre.Name = "Nombre";
-            Nombre.Size = new Size(51, 15);
+            Nombre.Size = new Size(64, 20);
             Nombre.TabIndex = 4;
             Nombre.Text = "Nombre";
             Nombre.Click += label1_Click;
@@ -90,52 +91,53 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(30, 104);
+            label1.Location = new Point(34, 139);
             label1.Name = "label1";
-            label1.Size = new Size(54, 15);
+            label1.Size = new Size(69, 20);
             label1.TabIndex = 5;
             label1.Text = "Apellido:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(24, 183);
+            label2.Location = new Point(27, 244);
             label2.Name = "label2";
-            label2.Size = new Size(60, 15);
+            label2.Size = new Size(75, 20);
             label2.TabIndex = 6;
             label2.Text = "Direccion:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(30, 227);
+            label3.Location = new Point(34, 303);
             label3.Name = "label3";
-            label3.Size = new Size(56, 15);
+            label3.Size = new Size(70, 20);
             label3.TabIndex = 7;
             label3.Text = "Telefono:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(105, 31);
+            label4.Location = new Point(120, 41);
             label4.Name = "label4";
-            label4.Size = new Size(75, 15);
+            label4.Size = new Size(94, 20);
             label4.TabIndex = 8;
             label4.Text = "Crear Cliente";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(381, 218);
+            label5.Location = new Point(435, 291);
             label5.Name = "label5";
-            label5.Size = new Size(0, 15);
+            label5.Size = new Size(0, 20);
             label5.TabIndex = 9;
             // 
             // GuardarCliente
             // 
-            GuardarCliente.Location = new Point(89, 263);
+            GuardarCliente.Location = new Point(102, 351);
+            GuardarCliente.Margin = new Padding(3, 4, 3, 4);
             GuardarCliente.Name = "GuardarCliente";
-            GuardarCliente.Size = new Size(104, 23);
+            GuardarCliente.Size = new Size(181, 31);
             GuardarCliente.TabIndex = 10;
             GuardarCliente.Text = "Guardar Cliente";
             GuardarCliente.UseVisualStyleBackColor = true;
@@ -143,9 +145,10 @@
             // 
             // Modificar_Cliente
             // 
-            Modificar_Cliente.Location = new Point(418, 44);
+            Modificar_Cliente.Location = new Point(478, 59);
+            Modificar_Cliente.Margin = new Padding(3, 4, 3, 4);
             Modificar_Cliente.Name = "Modificar_Cliente";
-            Modificar_Cliente.Size = new Size(141, 62);
+            Modificar_Cliente.Size = new Size(161, 83);
             Modificar_Cliente.TabIndex = 11;
             Modificar_Cliente.Text = "Modificar Cliente";
             Modificar_Cliente.UseVisualStyleBackColor = true;
@@ -153,9 +156,10 @@
             // 
             // Eliminar_Cliente
             // 
-            Eliminar_Cliente.Location = new Point(418, 180);
+            Eliminar_Cliente.Location = new Point(478, 240);
+            Eliminar_Cliente.Margin = new Padding(3, 4, 3, 4);
             Eliminar_Cliente.Name = "Eliminar_Cliente";
-            Eliminar_Cliente.Size = new Size(141, 62);
+            Eliminar_Cliente.Size = new Size(161, 83);
             Eliminar_Cliente.TabIndex = 12;
             Eliminar_Cliente.Text = "Eliminar Cliente";
             Eliminar_Cliente.UseVisualStyleBackColor = true;
@@ -164,60 +168,37 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(51, 142);
+            label6.Location = new Point(58, 189);
             label6.Name = "label6";
-            label6.Size = new Size(30, 15);
+            label6.Size = new Size(38, 20);
             label6.TabIndex = 14;
             label6.Text = "DNI:";
             // 
             // DniCliente
             // 
-            DniCliente.Location = new Point(93, 139);
+            DniCliente.Location = new Point(106, 185);
+            DniCliente.Margin = new Padding(3, 4, 3, 4);
             DniCliente.Name = "DniCliente";
-            DniCliente.Size = new Size(100, 23);
+            DniCliente.Size = new Size(177, 27);
             DniCliente.TabIndex = 13;
+            DniCliente.TextChanged += DniCliente_TextChanged;
             // 
-            // DniEliminar
+            // button2
             // 
-            DniEliminar.Location = new Point(595, 210);
-            DniEliminar.Name = "DniEliminar";
-            DniEliminar.Size = new Size(100, 23);
-            DniEliminar.TabIndex = 15;
-            // 
-            // DniModificar
-            // 
-            DniModificar.Location = new Point(595, 65);
-            DniModificar.Name = "DniModificar";
-            DniModificar.Size = new Size(100, 23);
-            DniModificar.TabIndex = 16;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(609, 188);
-            label7.Name = "label7";
-            label7.Size = new Size(68, 15);
-            label7.TabIndex = 17;
-            label7.Text = "Ingrese DNI";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(609, 44);
-            label8.Name = "label8";
-            label8.Size = new Size(68, 15);
-            label8.TabIndex = 18;
-            label8.Text = "Ingrese DNI";
+            button2.Location = new Point(655, 426);
+            button2.Name = "button2";
+            button2.Size = new Size(179, 52);
+            button2.TabIndex = 22;
+            button2.Text = "Volver al Menu";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // FormClientes
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label8);
-            Controls.Add(label7);
-            Controls.Add(DniModificar);
-            Controls.Add(DniEliminar);
+            ClientSize = new Size(914, 600);
+            Controls.Add(button2);
             Controls.Add(label6);
             Controls.Add(DniCliente);
             Controls.Add(Eliminar_Cliente);
@@ -233,6 +214,7 @@
             Controls.Add(DireccionCliente);
             Controls.Add(ApellidoCliente);
             Controls.Add(NombreCliente);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FormClientes";
             Text = "FormClientes";
             ResumeLayout(false);
@@ -256,9 +238,6 @@
         private Button Eliminar_Cliente;
         private Label label6;
         private TextBox DniCliente;
-        private TextBox DniEliminar;
-        private TextBox DniModificar;
-        private Label label7;
-        private Label label8;
+        private Button button2;
     }
 }

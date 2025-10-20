@@ -12,7 +12,7 @@ using TP_Sistema_pedidos_comida_rapida.Data;
 namespace TP_Sistema_pedidos_comida_rapida.Migrations
 {
     [DbContext(typeof(AplicationDbContext))]
-    [Migration("20251013232229_InitialCreate")]
+    [Migration("20251020155949_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -38,6 +38,10 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Direccion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Dni")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -81,6 +85,14 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DniCliente")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Estado")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -118,8 +130,11 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("Precio")
-                        .HasColumnType("float");
+                    b.Property<decimal>("Precio")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Stock")
+                        .HasColumnType("int");
 
                     b.HasKey("ID");
 

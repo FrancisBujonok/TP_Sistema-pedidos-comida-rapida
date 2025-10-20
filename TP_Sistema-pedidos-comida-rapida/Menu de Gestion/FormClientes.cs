@@ -56,26 +56,42 @@ namespace Menu_de_Gestion
             {
                 datosVacio = true;
             }
-            
+
             if (datosVacio == true)
             {
                 MessageBox.Show("Algunos de los campos estan vacios.");
             }
             else
             {
-                
-                Cliente nuevoCliente = new Cliente()
+                var usuarioExistente = ClienteRepository.ConsultarCliente(dniCliente);
+                if (usuarioExistente != null)
                 {
-                    Nombre = nombreCliente,
-                    Apellido = apellidoCliente,
-                    Dni = dniCliente,
-                    Direccion = direccion,
-                    Telefono = telefonoCliente
-                };
+                    MessageBox.Show("Ya existe un cliente con ese DNI.");
+                    return;
+                }
+                else
+                {
+                    Cliente nuevoCliente = new Cliente()
+                    {
+                        Nombre = nombreCliente,
+                        Apellido = apellidoCliente,
+                        Dni = dniCliente,
+                        Direccion = direccion,
+                        Telefono = telefonoCliente
+                    };
 
-                ClienteRepository.GuardarUsuario(nuevoCliente);
-                MessageBox.Show("Cliente Guardado");
+                    ClienteRepository.GuardarUsuario(nuevoCliente);
+                    MessageBox.Show("Cliente Guardado");
+                }
+
             }
+            //limpiar los campos
+            NombreCliente.Clear();
+            ApellidoCliente.Clear();
+            DniCliente.Clear();
+            DireccionCliente.Clear();
+            TelefonoCliente.Clear();
+
         }
 
         private void FormClientes_Load(object sender, EventArgs e)
@@ -86,47 +102,33 @@ namespace Menu_de_Gestion
         private void Modificar_Cliente_Click(object sender, EventArgs e)
         {
             //apartado boton modificar cliente
-            string dni = DniModificar.Text;
-            if (string.IsNullOrEmpty(dni))
-            {
-                MessageBox.Show("completa el campo");
-                return;
-            }
-            else
-            {
-                var CLIENTE = ClienteRepository.ConsultarCliente(dni);
-                if (CLIENTE == null)
-                {
-                    MessageBox.Show("No se encontro el cliente");
-                    return;
-                }
-                else
-                {
-                    MessageBox.Show("Cliente encontrado");
-
-                }
-            }
-
-                FormModificarClientes form = new FormModificarClientes();
+            FormModificarClientes form = new FormModificarClientes();
             form.ShowDialog();
             this.Hide();
-
-
 
         }
 
         private void Eliminar_Cliente_Click(object sender, EventArgs e)
         {
             //apartado boton eliminar cliente
-            string dni = DniEliminar.Text;
-            if (string.IsNullOrEmpty(dni))
-            {
-                MessageBox.Show("completa el campo");
-            }
-            else
-            {
-               var CLIENTE= ClienteRepository.ConsultarCliente(dni);    
-            }
+            FormEliminarClientes form = new FormEliminarClientes();
+            form.ShowDialog();
+            this.Hide();
+
+
+        }
+
+        private void DniCliente_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 formPrincipal = new Form1();
+            formPrincipal.Show();
+            this.Hide();
+
         }
     }
 }

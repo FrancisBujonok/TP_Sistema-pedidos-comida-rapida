@@ -14,6 +14,7 @@ namespace TP_Sistema_pedidos_comida_rapida.Models
         public DateTime Fecha { get; set; }
         public string Estado {  get; set; }
         public double Total {  get; set; }
-        
+        public string DniCliente { get; set; }  
+        public string Descripcion { get; set; }
     }
 }

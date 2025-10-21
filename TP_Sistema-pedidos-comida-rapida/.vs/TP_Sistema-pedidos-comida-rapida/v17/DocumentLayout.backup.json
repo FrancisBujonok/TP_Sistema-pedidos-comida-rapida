@@ -1,81 +1,81 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\",
+  "WorkspaceRootPath": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\menu de gestion\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formeliminarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formeliminarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formmodificarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formmodificarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\menu de gestion\\formmodificarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formmodificarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formeliminarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formeliminarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\menu de gestion\\formpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|solutionrelative:tp_sistema-pedidos-comida-rapida\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|solutionrelative:tp_sistema-pedidos-comida-rapida\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|solutionrelative:tp_sistema-pedidos-comida-rapida\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\repository\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\menu de gestion\\formpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\repository\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|solutionrelative:tp_sistema-pedidos-comida-rapida\\repository\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|solutionrelative:tp_sistema-pedidos-comida-rapida\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|solutionrelative:tp_sistema-pedidos-comida-rapida\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|solutionrelative:tp_sistema-pedidos-comida-rapida\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|solutionrelative:tp_sistema-pedidos-comida-rapida\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formclientes.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\menu de gestion\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\menu de gestion\\formeliminarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formeliminarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formmodificarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formmodificarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\menu de gestion\\formmodificarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formmodificarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formeliminarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formeliminarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\menu de gestion\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formclientes.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formclientes.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2F625FA-C250-47ED-B0B4-1FF1A59FB083}|TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida.csproj|solutionrelative:tp_sistema-pedidos-comida-rapida\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|c:\\users\\leona\\onedrive\\documentos\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formproductos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|d:\\users\\usuario\\documents\\github\\tp_sistema-pedidos-comida-rapida\\tp_sistema-pedidos-comida-rapida\\menu de gestion\\formproductos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CFAFF81-8A10-4698-8444-AD4395BCC389}|Menu de Gestion\\Menu de Gestion.csproj|solutionrelative:menu de gestion\\formproductos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,11 +94,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "FormPedidos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormPedidos.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormPedidos.cs",
               "RelativeDocumentMoniker": "Menu de Gestion\\FormPedidos.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormPedidos.cs [Dise\u00F1o]",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormPedidos.cs [Dise\u00F1o]",
               "RelativeToolTip": "Menu de Gestion\\FormPedidos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T23:23:22.236Z",
@@ -106,124 +106,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormEliminarClientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormEliminarClientes.cs",
-              "RelativeDocumentMoniker": "Menu de Gestion\\FormEliminarClientes.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormEliminarClientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Menu de Gestion\\FormEliminarClientes.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "FormPedidos.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormPedidos.cs",
+              "RelativeDocumentMoniker": "Menu de Gestion\\FormPedidos.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormPedidos.cs",
+              "RelativeToolTip": "Menu de Gestion\\FormPedidos.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAowKwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T16:26:00.08Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-10-16T23:16:42.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormModificarClientes.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormModificarClientes.cs",
-              "RelativeDocumentMoniker": "Menu de Gestion\\FormModificarClientes.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormModificarClientes.cs",
-              "RelativeToolTip": "Menu de Gestion\\FormModificarClientes.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwEIAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PedidoRepository.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Repository\\PedidoRepository.cs",
+              "RelativeDocumentMoniker": "TP_Sistema-pedidos-comida-rapida\\Repository\\PedidoRepository.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Repository\\PedidoRepository.cs",
+              "RelativeToolTip": "TP_Sistema-pedidos-comida-rapida\\Repository\\PedidoRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:49:52.643Z",
+              "WhenOpened": "2025-10-20T15:12:44.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FormEliminarClientes.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormEliminarClientes.cs",
-              "RelativeDocumentMoniker": "Menu de Gestion\\FormEliminarClientes.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormEliminarClientes.cs",
-              "RelativeToolTip": "Menu de Gestion\\FormEliminarClientes.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAswCsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T16:32:18.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormClientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.cs",
-              "RelativeDocumentMoniker": "Menu de Gestion\\FormClientes.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Menu de Gestion\\FormClientes.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T23:08:40.598Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormClientes.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.cs",
-              "RelativeDocumentMoniker": "Menu de Gestion\\FormClientes.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.cs",
-              "RelativeToolTip": "Menu de Gestion\\FormClientes.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAADwv10AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T20:03:33.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormProductos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormProductos.cs",
-              "RelativeDocumentMoniker": "Menu de Gestion\\FormProductos.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormProductos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Menu de Gestion\\FormProductos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T22:54:30.422Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormModificarClientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormModificarClientes.cs",
-              "RelativeDocumentMoniker": "Menu de Gestion\\FormModificarClientes.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormModificarClientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Menu de Gestion\\FormModificarClientes.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:57:21.812Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Repository\\ClienteRepository.cs",
-              "RelativeDocumentMoniker": "TP_Sistema-pedidos-comida-rapida\\Repository\\ClienteRepository.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Repository\\ClienteRepository.cs",
-              "RelativeToolTip": "TP_Sistema-pedidos-comida-rapida\\Repository\\ClienteRepository.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAIwDkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T23:10:20.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormClientes.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.Designer.cs",
-              "RelativeDocumentMoniker": "Menu de Gestion\\FormClientes.Designer.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.Designer.cs",
-              "RelativeToolTip": "Menu de Gestion\\FormClientes.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T16:26:18.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Models\\Cliente.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "TP_Sistema-pedidos-comida-rapida\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Models\\Cliente.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Models\\Cliente.cs",
               "RelativeToolTip": "TP_Sistema-pedidos-comida-rapida\\Models\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -232,86 +145,165 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FormProductos.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormProductos.cs",
-              "RelativeDocumentMoniker": "Menu de Gestion\\FormProductos.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormProductos.cs",
-              "RelativeToolTip": "Menu de Gestion\\FormProductos.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAE0AAAAdAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "TP_Sistema-pedidos-comida-rapida\\Repository\\ClienteRepository.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "TP_Sistema-pedidos-comida-rapida\\Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwDkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T22:02:34.651Z",
+              "WhenOpened": "2025-10-15T23:10:20.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FormPedidos.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormPedidos.cs",
-              "RelativeDocumentMoniker": "Menu de Gestion\\FormPedidos.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormPedidos.cs",
-              "RelativeToolTip": "Menu de Gestion\\FormPedidos.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAtwCwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:16:42.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "AplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Data\\AplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Data\\AplicationDbContext.cs",
               "RelativeDocumentMoniker": "TP_Sistema-pedidos-comida-rapida\\Data\\AplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Data\\AplicationDbContext.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Data\\AplicationDbContext.cs",
               "RelativeToolTip": "TP_Sistema-pedidos-comida-rapida\\Data\\AplicationDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T15:52:31.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PedidoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Repository\\PedidoRepository.cs",
-              "RelativeDocumentMoniker": "TP_Sistema-pedidos-comida-rapida\\Repository\\PedidoRepository.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Repository\\PedidoRepository.cs",
-              "RelativeToolTip": "TP_Sistema-pedidos-comida-rapida\\Repository\\PedidoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "TP_Sistema-pedidos-comida-rapida\\Models\\Pedido.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Models\\Pedido.cs",
+              "RelativeToolTip": "TP_Sistema-pedidos-comida-rapida\\Models\\Pedido.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:12:44.913Z"
+              "WhenOpened": "2025-10-16T23:39:26.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormClientes.cs [Design]",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.cs",
+              "RelativeDocumentMoniker": "Menu de Gestion\\FormClientes.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.cs [Design]",
+              "RelativeToolTip": "Menu de Gestion\\FormClientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T23:08:40.598Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormEliminarClientes.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormEliminarClientes.cs",
+              "RelativeDocumentMoniker": "Menu de Gestion\\FormEliminarClientes.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormEliminarClientes.cs",
+              "RelativeToolTip": "Menu de Gestion\\FormEliminarClientes.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:32:18.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormModificarClientes.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormModificarClientes.cs",
+              "RelativeDocumentMoniker": "Menu de Gestion\\FormModificarClientes.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormModificarClientes.cs",
+              "RelativeToolTip": "Menu de Gestion\\FormModificarClientes.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:49:52.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormEliminarClientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormEliminarClientes.cs",
+              "RelativeDocumentMoniker": "Menu de Gestion\\FormEliminarClientes.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormEliminarClientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:26:00.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormClientes.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.cs",
+              "RelativeDocumentMoniker": "Menu de Gestion\\FormClientes.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.cs",
+              "RelativeToolTip": "Menu de Gestion\\FormClientes.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAADwv10AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T20:03:33.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormProductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormProductos.cs",
+              "RelativeDocumentMoniker": "Menu de Gestion\\FormProductos.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormProductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T22:54:30.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormModificarClientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormModificarClientes.cs",
+              "RelativeDocumentMoniker": "Menu de Gestion\\FormModificarClientes.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormModificarClientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:57:21.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormClientes.Designer.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.Designer.cs",
+              "RelativeDocumentMoniker": "Menu de Gestion\\FormClientes.Designer.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.Designer.cs",
+              "RelativeToolTip": "Menu de Gestion\\FormClientes.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:26:18.398Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Models\\Pedido.cs",
-              "RelativeDocumentMoniker": "TP_Sistema-pedidos-comida-rapida\\Models\\Pedido.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Models\\Pedido.cs",
-              "RelativeToolTip": "TP_Sistema-pedidos-comida-rapida\\Models\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Title": "FormProductos.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormProductos.cs",
+              "RelativeDocumentMoniker": "Menu de Gestion\\FormProductos.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormProductos.cs",
+              "RelativeToolTip": "Menu de Gestion\\FormProductos.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAE0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T23:39:26.616Z"
+              "WhenOpened": "2025-10-15T22:02:34.651Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "FormClientes.resx",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.resx",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.resx",
               "RelativeDocumentMoniker": "Menu de Gestion\\FormClientes.resx",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.resx",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormClientes.resx",
               "RelativeToolTip": "Menu de Gestion\\FormClientes.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-10-16T23:19:05.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T23:19:05.946Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Models\\Producto.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "TP_Sistema-pedidos-comida-rapida\\Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Models\\Producto.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Models\\Producto.cs",
               "RelativeToolTip": "TP_Sistema-pedidos-comida-rapida\\Models\\Producto.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -321,14 +313,13 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "FormProductos.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormProductos.Designer.cs",
+              "DocumentMoniker": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormProductos.Designer.cs",
               "RelativeDocumentMoniker": "Menu de Gestion\\FormProductos.Designer.cs",
-              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormProductos.Designer.cs",
+              "ToolTip": "D:\\Users\\Usuario\\Documents\\GitHub\\TP_Sistema-pedidos-comida-rapida\\TP_Sistema-pedidos-comida-rapida\\Menu de Gestion\\FormProductos.Designer.cs",
               "RelativeToolTip": "Menu de Gestion\\FormProductos.Designer.cs",
               "ViewState": "AgIAALgAAAAAAAAAAAAewJoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T22:40:13.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T22:40:13.734Z"
             }
           ]
         }

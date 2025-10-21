@@ -17,7 +17,7 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.9")
+                .HasAnnotation("ProductVersion", "9.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -113,11 +113,11 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
 
             modelBuilder.Entity("TP_Sistema_pedidos_comida_rapida.Models.Producto", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("ID_Producto")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID_Producto"));
 
                     b.Property<string>("Categoria")
                         .IsRequired()
@@ -133,9 +133,9 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
                     b.Property<int>("Stock")
                         .HasColumnType("int");
 
-                    b.HasKey("ID");
+                    b.HasKey("ID_Producto");
 
-                    b.ToTable("Productos");
+                    b.ToTable("Productos", (string)null);
                 });
 #pragma warning restore 612, 618
         }

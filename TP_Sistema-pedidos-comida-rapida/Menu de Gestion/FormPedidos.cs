@@ -176,5 +176,12 @@ namespace Menu_de_Gestion
         {
             //no es nada
         }
+
+        private void buttonVolverAtras_Click(object sender, EventArgs e)
+        {
+            Form1 formMenu = new Form1();
+            formMenu.Show();
+            this.Close();
+        }
     }
 }

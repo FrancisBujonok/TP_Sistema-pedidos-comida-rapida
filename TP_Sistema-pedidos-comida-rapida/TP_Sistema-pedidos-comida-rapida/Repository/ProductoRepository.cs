@@ -10,7 +10,6 @@ namespace TP_Sistema_pedidos_comida_rapida.Repository
 {
     public static class ProductoRepository
     {
-        // Método para guardar un nuevo producto
         public static void GuardarProducto(Producto producto)
         {
             using var context = new AplicationDbContext();
@@ -18,21 +17,17 @@ namespace TP_Sistema_pedidos_comida_rapida.Repository
             context.SaveChanges();
         }
 
-        // Método para obtener todos los productos
         public static List<Producto> ObtenerProductos()
         {
             using var context = new AplicationDbContext();
             return context.Productos.ToList();
         }
 
-        // Método para buscar un producto por su ID
         public static Producto ObtenerPorId(int id)
         {
             using var context = new AplicationDbContext();
-            return context.Productos.FirstOrDefault(p => p.ID == id);
+            return context.Productos.FirstOrDefault(p => p.ID_Producto == id);
         }
-
-        // Método para modificar un producto existente
         public static void ModificarProducto(Producto producto)
         {
             using var context = new AplicationDbContext();
@@ -42,7 +37,7 @@ namespace TP_Sistema_pedidos_comida_rapida.Repository
         public static void EliminarProducto(int id)
         {
             using var context = new AplicationDbContext();
-            var producto = context.Productos.FirstOrDefault(p => p.ID == id);
+            var producto = context.Productos.FirstOrDefault(p => p.ID_Producto == id);
             if (producto != null)
             {
                 context.Productos.Remove(producto);

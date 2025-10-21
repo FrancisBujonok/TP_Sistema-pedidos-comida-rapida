@@ -39,8 +39,8 @@
             buttonAgregar = new Button();
             buttonModificar = new Button();
             buttonEliminar = new Button();
-            buttonLimpiar = new Button();
             dataGridView1 = new DataGridView();
+            buttonVolverAtras = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -127,6 +127,7 @@
             buttonModificar.TabIndex = 9;
             buttonModificar.Text = "Modificar";
             buttonModificar.UseVisualStyleBackColor = true;
+            buttonModificar.Click += buttonModificar_Click;
             // 
             // buttonEliminar
             // 
@@ -136,15 +137,7 @@
             buttonEliminar.TabIndex = 10;
             buttonEliminar.Text = "Eliminar";
             buttonEliminar.UseVisualStyleBackColor = true;
-            // 
-            // buttonLimpiar
-            // 
-            buttonLimpiar.Location = new Point(353, 231);
-            buttonLimpiar.Name = "buttonLimpiar";
-            buttonLimpiar.Size = new Size(101, 28);
-            buttonLimpiar.TabIndex = 11;
-            buttonLimpiar.Text = "Limpiar Campos";
-            buttonLimpiar.UseVisualStyleBackColor = true;
+            buttonEliminar.Click += buttonEliminar_Click;
             // 
             // dataGridView1
             // 
@@ -153,14 +146,25 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(305, 222);
             dataGridView1.TabIndex = 12;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // buttonVolverAtras
+            // 
+            buttonVolverAtras.Location = new Point(587, 294);
+            buttonVolverAtras.Name = "buttonVolverAtras";
+            buttonVolverAtras.Size = new Size(127, 26);
+            buttonVolverAtras.TabIndex = 13;
+            buttonVolverAtras.Text = "Volver Atrás";
+            buttonVolverAtras.UseVisualStyleBackColor = true;
+            buttonVolverAtras.Click += buttonVolverAtras_Click;
             // 
             // FormProductos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(835, 358);
+            Controls.Add(buttonVolverAtras);
             Controls.Add(dataGridView1);
-            Controls.Add(buttonLimpiar);
             Controls.Add(buttonEliminar);
             Controls.Add(buttonModificar);
             Controls.Add(buttonAgregar);
@@ -193,7 +197,7 @@
         private Button buttonAgregar;
         private Button buttonModificar;
         private Button buttonEliminar;
-        private Button buttonLimpiar;
         private DataGridView dataGridView1;
+        private Button buttonVolverAtras;
     }
 }

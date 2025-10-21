@@ -14,7 +14,7 @@ namespace Menu_de_Gestion
         {
             FormClientes form = new FormClientes(); //esto crea el form
             form.ShowDialog(); //esto lo muestra
-            this.Hide(); //esto esconde el actual mientras se abre el otro
+            this.Hide(); //esto cierra el actual mientras se abre el otro
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -22,6 +22,8 @@ namespace Menu_de_Gestion
             FormProductos form = new FormProductos();
             form.ShowDialog();
             this.Hide();
+            //cuando el otro se cierra o minimiza, se debería volver a abrir este
+
         }
 
         private void button3_Click(object sender, EventArgs e)

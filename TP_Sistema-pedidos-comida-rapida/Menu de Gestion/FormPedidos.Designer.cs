@@ -39,6 +39,7 @@
             comboEstado = new ComboBox();
             FechaPedido = new TextBox();
             label2 = new Label();
+            buttonVolverAtras = new Button();
             SuspendLayout();
             // 
             // button1
@@ -143,11 +144,22 @@
             label2.Text = "Fecha Pedido:";
             label2.Click += label2_Click;
             // 
+            // buttonVolverAtras
+            // 
+            buttonVolverAtras.Location = new Point(519, 346);
+            buttonVolverAtras.Name = "buttonVolverAtras";
+            buttonVolverAtras.Size = new Size(155, 28);
+            buttonVolverAtras.TabIndex = 12;
+            buttonVolverAtras.Text = "Volver Atrás";
+            buttonVolverAtras.UseVisualStyleBackColor = true;
+            buttonVolverAtras.Click += buttonVolverAtras_Click;
+            // 
             // FormPedidos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(buttonVolverAtras);
             Controls.Add(label2);
             Controls.Add(FechaPedido);
             Controls.Add(comboEstado);
@@ -178,5 +190,6 @@
         private ComboBox comboEstado;
         private TextBox FechaPedido;
         private Label label2;
+        private Button buttonVolverAtras;
     }
 }

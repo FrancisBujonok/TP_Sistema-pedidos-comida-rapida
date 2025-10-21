@@ -46,7 +46,7 @@
             // 
             button1.Location = new Point(290, 24);
             button1.Name = "button1";
-            button1.Size = new Size(110, 23);
+            button1.Size = new Size(144, 37);
             button1.TabIndex = 0;
             button1.Text = "Agregar Pedido";
             button1.UseVisualStyleBackColor = true;
@@ -54,10 +54,10 @@
             // 
             // button2
             // 
-            button2.Location = new Point(290, 109);
+            button2.Location = new Point(290, 113);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(131, 22);
+            button2.Size = new Size(131, 41);
             button2.TabIndex = 1;
             button2.Text = "Eliminar Pedido";
             button2.UseVisualStyleBackColor = true;
@@ -66,7 +66,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(91, 32);
+            label1.Location = new Point(81, 32);
             label1.Name = "label1";
             label1.Size = new Size(30, 15);
             label1.TabIndex = 2;
@@ -102,7 +102,7 @@
             // 
             button3.Location = new Point(290, 67);
             button3.Name = "button3";
-            button3.Size = new Size(97, 23);
+            button3.Size = new Size(131, 41);
             button3.TabIndex = 7;
             button3.Text = "Buscar Pedido";
             button3.UseVisualStyleBackColor = true;
@@ -110,9 +110,9 @@
             // 
             // button4
             // 
-            button4.Location = new Point(440, 24);
+            button4.Location = new Point(483, 29);
             button4.Name = "button4";
-            button4.Size = new Size(107, 23);
+            button4.Size = new Size(116, 37);
             button4.TabIndex = 8;
             button4.Text = "Actualizar Estado";
             button4.UseVisualStyleBackColor = true;
@@ -122,9 +122,9 @@
             // 
             comboEstado.FormattingEnabled = true;
             comboEstado.Items.AddRange(new object[] { "Pendiente", "En preparación", "Entregado", "Cancelado" });
-            comboEstado.Location = new Point(440, 53);
+            comboEstado.Location = new Point(470, 72);
             comboEstado.Name = "comboEstado";
-            comboEstado.Size = new Size(121, 23);
+            comboEstado.Size = new Size(145, 23);
             comboEstado.TabIndex = 9;
             // 
             // FechaPedido

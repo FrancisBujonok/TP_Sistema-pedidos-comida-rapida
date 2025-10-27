@@ -23,10 +23,10 @@ namespace TP_Sistema_pedidos_comida_rapida.Repository
             return context.Productos.ToList();
         }
 
-        public static Producto ObtenerPorId(int id)
+        public static Producto ObtenerPorNombre(string nombre)
         {
             using var context = new AplicationDbContext();
-            return context.Productos.FirstOrDefault(p => p.ID_Producto == id);
+            return context.Productos.FirstOrDefault(p => p.Nombre == nombre);
         }
         public static void ModificarProducto(Producto producto)
         {

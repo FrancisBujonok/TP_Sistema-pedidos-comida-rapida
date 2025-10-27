@@ -34,7 +34,6 @@ namespace Menu_de_Gestion
         {
             textNombre.Clear();
             textPrecio.Clear();
-            textCategoria.Clear();
             textStock.Clear();
             //_productoSeleccionadoId = null;
             //dataGridViewProductos.ClearSelection();
@@ -75,70 +74,104 @@ namespace Menu_de_Gestion
         private void buttonAgregar_Click(object sender, EventArgs e)
         {
             bool datosVacio = false;
-            string nombreProducto = textNombre.Text;
-            if (string.IsNullOrEmpty(nombreProducto))
+            while (datosVacio == false)
             {
-                datosVacio = true;
-            }
-
-            decimal Precio = 0;
-
-            string precioTexto = textPrecio.Text;
-            if (string.IsNullOrEmpty(precioTexto))
-            {
-                datosVacio = true;
-
-            }
-            else
-            {
-                if (decimal.TryParse(precioTexto, out Precio))
+                string nombreProducto = textNombre.Text;
+                if (string.IsNullOrEmpty(nombreProducto))
                 {
-                    if (Precio < 0)
-                    {
-                        datosVacio = true;
-                        MessageBox.Show("El precio no puede ser negativo.");
-                    }
-                }
-            }
-
-            string Categoria = textCategoria.Text;
-            if (string.IsNullOrEmpty(Categoria))
-            {
-                datosVacio = true;
-            }
-            string stockTexto = textStock.Text;
-            int Stock;
-            if (string.IsNullOrEmpty(stockTexto))
-            {
-                datosVacio = true;
-            }
-
-            if (datosVacio == true)
-            {
-                MessageBox.Show("Algunos de los campos estan vacios.");
-            }
-            else
-            {
-                if (!int.TryParse(stockTexto, out Stock) || Stock < 0)
-                {
-                    MessageBox.Show("Ingrese un stock válido.");
-                    return;
+                    MessageBox.Show("El nombre del producto no puede estar vacio.");
+                    datosVacio = true;
+                    break;
                 }
                 else
                 {
-                    Producto nuevoProducto = new Producto()
+                    var producto = ProductoRepository.ObtenerPorNombre(nombreProducto);
+                    if (producto != null)
                     {
-                        Nombre = nombreProducto,
-                        Precio = Precio,
-                        Categoria = Categoria,
-                        Stock = Stock,
-
-                    };
-                    ProductoRepository.GuardarProducto(nuevoProducto);
-                    MessageBox.Show("Producto Guardado");
+                        MessageBox.Show("El producto ya existe.");
+                        break;
+                    }
+                    else
+                    {
+                        nombreProducto = textNombre.Text;
+                    }
                 }
+
+                decimal Precio = 0;
+
+                string precioTexto = textPrecio.Text;
+                if (string.IsNullOrEmpty(precioTexto))
+                {
+                    MessageBox.Show("El precio no puede estar vacio.");
+                    datosVacio = true;
+
+                }
+                else
+                {
+                    if (decimal.TryParse(precioTexto, out Precio))
+                    {
+                        if (Precio < 0)
+                        {
+                            MessageBox.Show("El precio no puede ser negativo.");
+                            break;
+                        }
+                        else
+                        {
+                            Precio = decimal.Parse(precioTexto);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El precio debe ser un número válido.");
+                        break;
+                    }
+                }
+
+                string Categoria = textCategoria.Text;
+                if (string.IsNullOrEmpty(Categoria))
+                {
+                    MessageBox.Show("La categoria no puede estar vacia.");
+                    datosVacio = true;
+                }
+
+
+                int Stock=-1;
+                string stockTexto = textStock.Text;
+                if (string.IsNullOrEmpty(stockTexto))
+                {
+                    MessageBox.Show("El stock no puede estar vacio.");
+                    datosVacio = true;
+                }
+                else
+                {
+                    if (int.TryParse(stockTexto, out Stock))
+                    {
+                        if (Stock < 0)
+                        {
+                            MessageBox.Show("El stock no puede ser negativo.");
+                            break;
+                        }
+                        else
+                        {
+                            Stock = int.Parse(stockTexto);
+                        }
+                    }
+                }
+
+                Producto nuevoProducto = new Producto()
+                {
+                    Nombre = nombreProducto,
+                    Precio = Precio,
+                    Categoria = Categoria,
+                    Stock = Stock,
+
+                };
+                ProductoRepository.GuardarProducto(nuevoProducto);
+                MessageBox.Show("Producto Guardado");
+
                 LimpiarCampos();
             }
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -261,6 +294,11 @@ namespace Menu_de_Gestion
             Form1 formMenu = new Form1();
             formMenu.Show();
             this.Close();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

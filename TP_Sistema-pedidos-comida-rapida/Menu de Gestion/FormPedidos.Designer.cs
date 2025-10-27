@@ -44,9 +44,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(290, 24);
+            button1.Location = new Point(160, 207);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(144, 37);
+            button1.Size = new Size(169, 78);
             button1.TabIndex = 0;
             button1.Text = "Agregar Pedido";
             button1.UseVisualStyleBackColor = true;
@@ -54,10 +55,9 @@
             // 
             // button2
             // 
-            button2.Location = new Point(290, 113);
-            button2.Margin = new Padding(3, 2, 3, 2);
+            button2.Location = new Point(424, 331);
             button2.Name = "button2";
-            button2.Size = new Size(131, 41);
+            button2.Size = new Size(163, 67);
             button2.TabIndex = 1;
             button2.Text = "Eliminar Pedido";
             button2.UseVisualStyleBackColor = true;
@@ -66,43 +66,42 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(81, 32);
+            label1.Location = new Point(96, 42);
             label1.Name = "label1";
-            label1.Size = new Size(30, 15);
+            label1.Size = new Size(38, 20);
             label1.TabIndex = 2;
             label1.Text = "DNI:";
             label1.Click += label1_Click;
             // 
             // DniPedido
             // 
-            DniPedido.Location = new Point(127, 29);
-            DniPedido.Margin = new Padding(3, 2, 3, 2);
+            DniPedido.Location = new Point(160, 39);
             DniPedido.Name = "DniPedido";
-            DniPedido.Size = new Size(110, 23);
+            DniPedido.Size = new Size(169, 27);
             DniPedido.TabIndex = 3;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(12, 71);
+            label3.Location = new Point(14, 95);
             label3.Name = "label3";
-            label3.Size = new Size(112, 15);
+            label3.Size = new Size(140, 20);
             label3.TabIndex = 5;
             label3.Text = "Descripción Pedido:";
             // 
             // DescripcionPedido
             // 
-            DescripcionPedido.Location = new Point(127, 68);
-            DescripcionPedido.Margin = new Padding(3, 2, 3, 2);
+            DescripcionPedido.Location = new Point(160, 92);
             DescripcionPedido.Name = "DescripcionPedido";
-            DescripcionPedido.Size = new Size(110, 23);
+            DescripcionPedido.Size = new Size(169, 27);
             DescripcionPedido.TabIndex = 6;
             // 
             // button3
             // 
-            button3.Location = new Point(290, 67);
+            button3.Location = new Point(160, 331);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(131, 41);
+            button3.Size = new Size(169, 67);
             button3.TabIndex = 7;
             button3.Text = "Buscar Pedido";
             button3.UseVisualStyleBackColor = true;
@@ -110,9 +109,10 @@
             // 
             // button4
             // 
-            button4.Location = new Point(483, 29);
+            button4.Location = new Point(488, 53);
+            button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
-            button4.Size = new Size(116, 37);
+            button4.Size = new Size(171, 62);
             button4.TabIndex = 8;
             button4.Text = "Actualizar Estado";
             button4.UseVisualStyleBackColor = true;
@@ -122,33 +122,37 @@
             // 
             comboEstado.FormattingEnabled = true;
             comboEstado.Items.AddRange(new object[] { "Pendiente", "En preparación", "Entregado", "Cancelado" });
-            comboEstado.Location = new Point(470, 72);
+            comboEstado.Location = new Point(475, 144);
+            comboEstado.Margin = new Padding(3, 4, 3, 4);
             comboEstado.Name = "comboEstado";
-            comboEstado.Size = new Size(145, 23);
+            comboEstado.Size = new Size(184, 28);
             comboEstado.TabIndex = 9;
+            comboEstado.SelectedIndexChanged += comboEstado_SelectedIndexChanged;
             // 
             // FechaPedido
             // 
-            FechaPedido.Location = new Point(127, 108);
+            FechaPedido.Location = new Point(160, 145);
+            FechaPedido.Margin = new Padding(3, 4, 3, 4);
             FechaPedido.Name = "FechaPedido";
-            FechaPedido.Size = new Size(100, 23);
+            FechaPedido.Size = new Size(169, 27);
             FechaPedido.TabIndex = 10;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(30, 111);
+            label2.Location = new Point(34, 148);
             label2.Name = "label2";
-            label2.Size = new Size(81, 15);
+            label2.Size = new Size(100, 20);
             label2.TabIndex = 11;
             label2.Text = "Fecha Pedido:";
             label2.Click += label2_Click;
             // 
             // buttonVolverAtras
             // 
-            buttonVolverAtras.Location = new Point(519, 346);
+            buttonVolverAtras.Location = new Point(707, 346);
+            buttonVolverAtras.Margin = new Padding(3, 4, 3, 4);
             buttonVolverAtras.Name = "buttonVolverAtras";
-            buttonVolverAtras.Size = new Size(155, 28);
+            buttonVolverAtras.Size = new Size(177, 37);
             buttonVolverAtras.TabIndex = 12;
             buttonVolverAtras.Text = "Volver Atrás";
             buttonVolverAtras.UseVisualStyleBackColor = true;
@@ -156,9 +160,9 @@
             // 
             // FormPedidos
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 459);
             Controls.Add(buttonVolverAtras);
             Controls.Add(label2);
             Controls.Add(FechaPedido);
@@ -171,6 +175,7 @@
             Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FormPedidos";
             Text = "FormPedidos";
             ResumeLayout(false);

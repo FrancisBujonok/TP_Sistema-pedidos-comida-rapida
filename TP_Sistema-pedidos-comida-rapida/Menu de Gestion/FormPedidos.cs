@@ -183,5 +183,10 @@ namespace Menu_de_Gestion
             formMenu.Show();
             this.Close();
         }
+
+        private void comboEstado_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -37,5 +37,30 @@ namespace Menu_de_Gestion
         {
 
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void CargarReportes()
+        {
+            // Reporte 1: Ventas por día
+            var ventasPorDia = ReportRepository.ObtenerVentasPorDia();
+            dataGridVentasDia.DataSource = ventasPorDia;
+
+            // Opcional: formato visual
+            dataGridVentasDia.Columns["Fecha"].DefaultCellStyle.Format = "dd/MM/yyyy";
+            dataGridVentasDia.Columns["TotalVendido"].DefaultCellStyle.Format = "C2";
+
+            // Reporte 2: Top 5 productos más vendidos
+            var topProductos = ReportRepository.ObtenerTopProductos();
+            dataGridTopProductos.DataSource = topProductos;
+            dataGridTopProductos.Columns["MontoTotal"].DefaultCellStyle.Format = "C2";
+        }
     }
 }

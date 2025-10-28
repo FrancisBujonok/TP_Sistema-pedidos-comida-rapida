@@ -126,9 +126,6 @@ namespace Menu_de_Gestion
                 //Guardamos el pedido en la base de datos.
                 _pedido.Estado = "Completado";
                 _pedido.Fecha = DateTime.Now;
-
-                
-
                 PedidoRepository.GuardarPedido(_pedido);
                 MessageBox.Show("Pedido guardado con exito.");
                 //cerramos el menu

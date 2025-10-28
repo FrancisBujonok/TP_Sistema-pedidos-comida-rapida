@@ -12,8 +12,8 @@ using TP_Sistema_pedidos_comida_rapida.Data;
 namespace TP_Sistema_pedidos_comida_rapida.Migrations
 {
     [DbContext(typeof(AplicationDbContext))]
-    [Migration("20251028173135_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20251028200315_TP")]
+    partial class TP
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

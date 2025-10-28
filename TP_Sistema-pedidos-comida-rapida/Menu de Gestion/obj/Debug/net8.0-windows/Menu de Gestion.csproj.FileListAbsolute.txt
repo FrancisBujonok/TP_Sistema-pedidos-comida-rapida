@@ -511,3 +511,4 @@ C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Si
 C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\leona\OneDrive\Documentos\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\Menu de Gestion\obj\Debug\net8.0-windows\Menu_de_Gestion.FormAgregarPedido.resources

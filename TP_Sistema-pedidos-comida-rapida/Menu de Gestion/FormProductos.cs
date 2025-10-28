@@ -169,7 +169,10 @@ namespace Menu_de_Gestion
                 ProductoRepository.GuardarProducto(nuevoProducto);
                 MessageBox.Show("Producto Guardado");
 
+                //limpiamos los campos.
                 LimpiarCampos();
+                CargarProductosEnGrilla();
+                break;
             }
 
         }

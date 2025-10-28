@@ -34,8 +34,8 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
                 {
                     Id_Cliente = table.Column<int>(type: "int", nullable: false),
                     Id_Producto = table.Column<int>(type: "int", nullable: false),
-                    Cantidad = table.Column<int>(type: "int", nullable: false),
-                    SubTotal = table.Column<double>(type: "float", nullable: false)
+                    PrecioUnitario = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Cantidad = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -48,13 +48,10 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Id_Cliente = table.Column<int>(type: "int", nullable: false),
-                    NumeroPedido = table.Column<int>(type: "int", nullable: false),
+                    ClienteId = table.Column<int>(type: "int", nullable: false),
                     Fecha = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Estado = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Total = table.Column<double>(type: "float", nullable: false),
-                    DniCliente = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Total = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -65,7 +62,7 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
                 name: "Productos",
                 columns: table => new
                 {
-                    ID = table.Column<int>(type: "int", nullable: false)
+                    ID_Producto = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Precio = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
@@ -74,7 +71,7 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Productos", x => x.ID);
+                    table.PrimaryKey("PK_Productos", x => x.ID_Producto);
                 });
         }
 

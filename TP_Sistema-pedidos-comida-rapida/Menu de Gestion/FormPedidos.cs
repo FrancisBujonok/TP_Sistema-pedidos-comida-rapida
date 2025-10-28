@@ -21,46 +21,7 @@ namespace Menu_de_Gestion
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //apartado para eliminar pedido
-            string dniTexto = DniPedido.Text.Trim();
 
-            if (string.IsNullOrEmpty(dniTexto))
-            {
-                MessageBox.Show("Ingrese el DNI del pedido a eliminar.");
-                return;
-            }
-
-            // Verificar que el DNI sea un número entero
-            if (!int.TryParse(dniTexto, out int dni))
-            {
-                MessageBox.Show("El DNI debe ser un número entero (sin letras ni símbolos).");
-                return;
-            }
-
-            var pedido = PedidoRepository.ObtenerPedidos()
-                .FirstOrDefault(p => p.DniCliente == dniTexto);
-
-            if (pedido == null)
-            {
-                MessageBox.Show("No se encontró un pedido con ese DNI.");
-                return;
-            }
-
-            var confirmacion = MessageBox.Show("¿Seguro que desea eliminar el pedido?",
-                                               "Confirmación",
-                                               MessageBoxButtons.YesNo,
-                                               MessageBoxIcon.Question);
-
-            if (confirmacion == DialogResult.Yes)
-            {
-                PedidoRepository.EliminarPedido(pedido.Id);
-                MessageBox.Show("Pedido eliminado correctamente.");
-
-                // Limpiar campos
-                DniPedido.Clear();
-                DescripcionPedido.Clear();
-                FechaPedido.Clear();
-            }
 
 
         }
@@ -68,33 +29,7 @@ namespace Menu_de_Gestion
         private void button1_Click(object sender, EventArgs e)
         {
             //apartado para agregar pedido
-            string dniTexto = DniPedido.Text;
-            if (string.IsNullOrEmpty(dniTexto))
-            {
-                MessageBox.Show("El campo DNI está vacío.");
-                return;
-            }
-            if (!int.TryParse(dniTexto, out int dni))
-            {
-                MessageBox.Show("El DNI debe ser un número entero (sin letras ni símbolos).");
-                return;
-            }
-            Pedido nuevoPedido = new Pedido()
-            {
-                DniCliente = dniTexto,
-                Descripcion = DescripcionPedido.Text,
-                Fecha = DateTime.Now,
-                Estado = "Pendiente"
-            };
 
-            PedidoRepository.GuardarPedido(nuevoPedido);
-
-            MessageBox.Show("Pedido guardado correctamente.");
-
-            // Limpiar campos
-            DniPedido.Clear();
-            DescripcionPedido.Clear();
-            FechaPedido.Clear();
 
         }
 
@@ -105,71 +40,12 @@ namespace Menu_de_Gestion
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //apartado actualizar estado
-
-            string dniTexto = DniPedido.Text.Trim();
-            string nuevoEstado = comboEstado.Text;
-
-            if (string.IsNullOrEmpty(dniTexto))
-            {
-                MessageBox.Show("Ingrese el DNI del pedido a actualizar.");
-                return;
-            }
-            if (!int.TryParse(dniTexto, out int dni))
-            {
-                MessageBox.Show("El DNI debe ser un número entero (sin letras ni símbolos).");
-                return;
-            }
-            if (string.IsNullOrEmpty(nuevoEstado))
-            {
-                MessageBox.Show("Seleccione un estado nuevo.");
-                return;
-            }
-
-            var pedido = PedidoRepository.ObtenerPedidos()
-                .FirstOrDefault(p => p.DniCliente == dniTexto);
-
-            if (pedido == null)
-            {
-                MessageBox.Show("No se encontró un pedido con ese DNI.");
-                return;
-            }
-
-            PedidoRepository.CambiarEstado(pedido.Id, nuevoEstado);
-            MessageBox.Show("Estado del pedido actualizado correctamente.");
-
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string dniTexto = DniPedido.Text.Trim();
 
-            if (string.IsNullOrEmpty(dniTexto))
-            {
-                MessageBox.Show("Ingrese un DNI para buscar.");
-                return;
-            }
-            if (!int.TryParse(dniTexto, out int dni))
-            {
-                MessageBox.Show("El DNI debe ser un número entero (sin letras ni símbolos).");
-                return;
-            }
-            var pedido = PedidoRepository.ObtenerPedidos()
-                .FirstOrDefault(p => p.DniCliente == dniTexto);
-
-            if (pedido == null)
-            {
-                MessageBox.Show("No se encontró un pedido con ese DNI.");
-                return;
-            }
-
-            // Mostrar la info en los TextBox
-            DescripcionPedido.Text = pedido.Descripcion;
-            FechaPedido.Text = pedido.Fecha.ToString("dd/MM/yyyy");
-            comboEstado.Text = pedido.Estado;
-
-            MessageBox.Show("Pedido encontrado.");
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -187,6 +63,81 @@ namespace Menu_de_Gestion
         private void comboEstado_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            //Buscar cliente en la base de datos
+
+            string dniTexto = DniPedido.Text.Trim();
+            if (string.IsNullOrEmpty(dniTexto))
+            {
+                MessageBox.Show("Ingrese un DNI para buscar.");
+                return;
+            }
+            else
+            {
+                var cliente = ClienteRepository.ConsultarCliente(dniTexto);
+                if (cliente == null)
+                {
+                    MessageBox.Show("No se encontró un cliente con ese DNI.");
+                    return;
+                }
+                else
+                {
+                    MessageBox.Show($"Cliente encontrado.");
+                    NombreDetalleP.Text = cliente.Nombre;
+                    ApellidoDetalleP.Text = cliente.Apellido;
+                    AgregarPedido.Enabled = true;
+                    return;
+                }
+
+            }
+        }
+
+        private void NombreDetalleP_TextChanged(object sender, EventArgs e)
+        {
+            NombreDetalleP.ReadOnly = true;
+        }
+
+        private void ApellidoDetalleP_TextChanged(object sender, EventArgs e)
+        {
+            ApellidoDetalleP.ReadOnly = true;
+        }
+
+        private void FormPedidos_Load(object sender, EventArgs e)
+        {
+            //no hace nada
+        }
+
+        private void AgregarPedido_Click(object sender, EventArgs e)
+        {
+            var cliente = ClienteRepository.ConsultarCliente(DniPedido.Text.Trim());
+            if (cliente == null)
+            {
+                MessageBox.Show("No se encontró un cliente con ese DNI.");
+                return;
+            }
+            else
+            {
+                Pedido NuevoPedido = new Pedido()
+                {
+                    ClienteId = cliente.ID,
+                    Fecha = DateTime.Now,
+                    Estado = "Pendiente",
+                    Detalles = new List<DetallePedido>()
+                };
+                FormAgregarPedido formAgregarPedido = new FormAgregarPedido(NuevoPedido);
+                formAgregarPedido.ShowDialog();
+            }
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            //Volver al menu
+            Form1 formMenu = new Form1();
+            formMenu.Show();
+            this.Close();
         }
     }
 }

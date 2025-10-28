@@ -12,8 +12,8 @@ using TP_Sistema_pedidos_comida_rapida.Data;
 namespace TP_Sistema_pedidos_comida_rapida.Migrations
 {
     [DbContext(typeof(AplicationDbContext))]
-    [Migration("20251021202129_Version2")]
-    partial class Version2
+    [Migration("20251028173135_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -69,8 +69,8 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
                     b.Property<int>("Cantidad")
                         .HasColumnType("int");
 
-                    b.Property<double>("SubTotal")
-                        .HasColumnType("float");
+                    b.Property<decimal>("PrecioUnitario")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id_Cliente", "Id_Producto");
 
@@ -85,13 +85,8 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Descripcion")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("DniCliente")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ClienteId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Estado")
                         .IsRequired()
@@ -100,14 +95,8 @@ namespace TP_Sistema_pedidos_comida_rapida.Migrations
                     b.Property<DateTime>("Fecha")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Id_Cliente")
-                        .HasColumnType("int");
-
-                    b.Property<int>("NumeroPedido")
-                        .HasColumnType("int");
-
-                    b.Property<double>("Total")
-                        .HasColumnType("float");
+                    b.Property<decimal>("Total")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 

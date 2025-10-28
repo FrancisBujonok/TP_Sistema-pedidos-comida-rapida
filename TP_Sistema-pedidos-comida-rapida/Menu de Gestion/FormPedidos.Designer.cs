@@ -28,45 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
             label1 = new Label();
             DniPedido = new TextBox();
-            label3 = new Label();
-            DescripcionPedido = new TextBox();
-            button3 = new Button();
-            button4 = new Button();
-            comboEstado = new ComboBox();
-            FechaPedido = new TextBox();
+            button1 = new Button();
+            NombreDetalleP = new RichTextBox();
             label2 = new Label();
-            buttonVolverAtras = new Button();
+            label3 = new Label();
+            label4 = new Label();
+            ApellidoDetalleP = new RichTextBox();
+            AgregarPedido = new Button();
+            button2 = new Button();
             SuspendLayout();
-            // 
-            // button1
-            // 
-            button1.Location = new Point(160, 207);
-            button1.Margin = new Padding(3, 4, 3, 4);
-            button1.Name = "button1";
-            button1.Size = new Size(169, 78);
-            button1.TabIndex = 0;
-            button1.Text = "Agregar Pedido";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(424, 331);
-            button2.Name = "button2";
-            button2.Size = new Size(163, 67);
-            button2.TabIndex = 1;
-            button2.Text = "Eliminar Pedido";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(96, 42);
+            label1.Location = new Point(69, 69);
             label1.Name = "label1";
             label1.Size = new Size(38, 20);
             label1.TabIndex = 2;
@@ -75,126 +52,119 @@
             // 
             // DniPedido
             // 
-            DniPedido.Location = new Point(160, 39);
+            DniPedido.Location = new Point(122, 66);
             DniPedido.Name = "DniPedido";
             DniPedido.Size = new Size(169, 27);
             DniPedido.TabIndex = 3;
             // 
-            // label3
+            // button1
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(14, 95);
-            label3.Name = "label3";
-            label3.Size = new Size(140, 20);
-            label3.TabIndex = 5;
-            label3.Text = "Descripción Pedido:";
+            button1.Location = new Point(328, 64);
+            button1.Name = "button1";
+            button1.Size = new Size(125, 30);
+            button1.TabIndex = 10;
+            button1.Text = "Buscar";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
             // 
-            // DescripcionPedido
+            // NombreDetalleP
             // 
-            DescripcionPedido.Location = new Point(160, 92);
-            DescripcionPedido.Name = "DescripcionPedido";
-            DescripcionPedido.Size = new Size(169, 27);
-            DescripcionPedido.TabIndex = 6;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(160, 331);
-            button3.Margin = new Padding(3, 4, 3, 4);
-            button3.Name = "button3";
-            button3.Size = new Size(169, 67);
-            button3.TabIndex = 7;
-            button3.Text = "Buscar Pedido";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
-            // button4
-            // 
-            button4.Location = new Point(488, 53);
-            button4.Margin = new Padding(3, 4, 3, 4);
-            button4.Name = "button4";
-            button4.Size = new Size(171, 62);
-            button4.TabIndex = 8;
-            button4.Text = "Actualizar Estado";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
-            // 
-            // comboEstado
-            // 
-            comboEstado.FormattingEnabled = true;
-            comboEstado.Items.AddRange(new object[] { "Pendiente", "En preparación", "Entregado", "Cancelado" });
-            comboEstado.Location = new Point(475, 144);
-            comboEstado.Margin = new Padding(3, 4, 3, 4);
-            comboEstado.Name = "comboEstado";
-            comboEstado.Size = new Size(184, 28);
-            comboEstado.TabIndex = 9;
-            comboEstado.SelectedIndexChanged += comboEstado_SelectedIndexChanged;
-            // 
-            // FechaPedido
-            // 
-            FechaPedido.Location = new Point(160, 145);
-            FechaPedido.Margin = new Padding(3, 4, 3, 4);
-            FechaPedido.Name = "FechaPedido";
-            FechaPedido.Size = new Size(169, 27);
-            FechaPedido.TabIndex = 10;
+            NombreDetalleP.Location = new Point(122, 212);
+            NombreDetalleP.Name = "NombreDetalleP";
+            NombreDetalleP.Size = new Size(167, 30);
+            NombreDetalleP.TabIndex = 11;
+            NombreDetalleP.Text = "";
+            NombreDetalleP.TextChanged += NombreDetalleP_TextChanged;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(34, 148);
+            label2.Location = new Point(134, 167);
             label2.Name = "label2";
-            label2.Size = new Size(100, 20);
-            label2.TabIndex = 11;
-            label2.Text = "Fecha Pedido:";
-            label2.Click += label2_Click;
+            label2.Size = new Size(139, 20);
+            label2.TabIndex = 12;
+            label2.Text = "Detalles del cliente:";
             // 
-            // buttonVolverAtras
+            // label3
             // 
-            buttonVolverAtras.Location = new Point(707, 346);
-            buttonVolverAtras.Margin = new Padding(3, 4, 3, 4);
-            buttonVolverAtras.Name = "buttonVolverAtras";
-            buttonVolverAtras.Size = new Size(177, 37);
-            buttonVolverAtras.TabIndex = 12;
-            buttonVolverAtras.Text = "Volver Atrás";
-            buttonVolverAtras.UseVisualStyleBackColor = true;
-            buttonVolverAtras.Click += buttonVolverAtras_Click;
+            label3.AutoSize = true;
+            label3.Location = new Point(40, 215);
+            label3.Name = "label3";
+            label3.Size = new Size(67, 20);
+            label3.TabIndex = 13;
+            label3.Text = "Nombre:";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(40, 279);
+            label4.Name = "label4";
+            label4.Size = new Size(69, 20);
+            label4.TabIndex = 14;
+            label4.Text = "Apellido:";
+            // 
+            // ApellidoDetalleP
+            // 
+            ApellidoDetalleP.Location = new Point(122, 276);
+            ApellidoDetalleP.Name = "ApellidoDetalleP";
+            ApellidoDetalleP.Size = new Size(167, 30);
+            ApellidoDetalleP.TabIndex = 15;
+            ApellidoDetalleP.Text = "";
+            ApellidoDetalleP.TextChanged += ApellidoDetalleP_TextChanged;
+            // 
+            // AgregarPedido
+            // 
+            AgregarPedido.Location = new Point(619, 69);
+            AgregarPedido.Name = "AgregarPedido";
+            AgregarPedido.Size = new Size(175, 57);
+            AgregarPedido.TabIndex = 16;
+            AgregarPedido.Text = "Agregar Pedido";
+            AgregarPedido.UseVisualStyleBackColor = true;
+            AgregarPedido.Click += AgregarPedido_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(115, 407);
+            button2.Name = "button2";
+            button2.Size = new Size(158, 29);
+            button2.TabIndex = 19;
+            button2.Text = "Volver al Menu";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_1;
             // 
             // FormPedidos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(914, 459);
-            Controls.Add(buttonVolverAtras);
-            Controls.Add(label2);
-            Controls.Add(FechaPedido);
-            Controls.Add(comboEstado);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(DescripcionPedido);
+            Controls.Add(button2);
+            Controls.Add(AgregarPedido);
+            Controls.Add(ApellidoDetalleP);
+            Controls.Add(label4);
             Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(NombreDetalleP);
+            Controls.Add(button1);
             Controls.Add(DniPedido);
             Controls.Add(label1);
-            Controls.Add(button2);
-            Controls.Add(button1);
             Margin = new Padding(3, 4, 3, 4);
             Name = "FormPedidos";
             Text = "FormPedidos";
+            Load += FormPedidos_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Button button1;
-        private Button button2;
         private Label label1;
         private TextBox DniPedido;
-        private Label label3;
-        private TextBox DescripcionPedido;
-        private Button button3;
-        private Button button4;
-        private ComboBox comboEstado;
-        private TextBox FechaPedido;
+        private Button button1;
+        private RichTextBox NombreDetalleP;
         private Label label2;
-        private Button buttonVolverAtras;
+        private Label label3;
+        private Label label4;
+        private RichTextBox ApellidoDetalleP;
+        private Button AgregarPedido;
+        private Button button2;
     }
 }

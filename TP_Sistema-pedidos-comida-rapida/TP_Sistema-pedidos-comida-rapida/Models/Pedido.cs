@@ -11,12 +11,10 @@ namespace TP_Sistema_pedidos_comida_rapida.Models
     {
         [Key]
         public int Id { get; set; }
-        public int Id_Cliente {  get; set; }
-        public int NumeroPedido {  get; set; }
+        public int ClienteId { get; set; }
         public DateTime Fecha { get; set; }
         public string Estado {  get; set; }
-        public double Total {  get; set; }
-        public string DniCliente { get; set; }  
-        public string Descripcion { get; set; }
+        public decimal Total {  get; set; }
+        public List<DetallePedido> Detalles = new List<DetallePedido>();
     }
 }

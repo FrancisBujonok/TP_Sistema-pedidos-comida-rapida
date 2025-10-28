@@ -57,3 +57,12 @@ D:\Users\Usuario\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pe
 D:\Users\Usuario\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\obj\Debug\net8.0\TP_Sistema-pedidos-comida-rapida.pdb
 D:\Users\Usuario\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\obj\Debug\net8.0\TP_Sistema-pedidos-comida-rapida.genruntimeconfig.cache
 D:\Users\Usuario\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\obj\Debug\net8.0\ref\TP_Sistema-pedidos-comida-rapida.dll
+C:\Users\Fran\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\obj\Debug\net8.0\TP_Sistema-pedidos-comida-rapida.csproj.AssemblyReference.cache
+C:\Users\Fran\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\obj\Debug\net8.0\TP_Sistema-pedidos-comida-rapida.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fran\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\obj\Debug\net8.0\TP_Sistema-pedidos-comida-rapida.AssemblyInfoInputs.cache
+C:\Users\Fran\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\obj\Debug\net8.0\TP_Sistema-pedidos-comida-rapida.AssemblyInfo.cs
+C:\Users\Fran\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\obj\Debug\net8.0\TP_Sistema-pedidos-comida-rapida.csproj.CoreCompileInputs.cache
+C:\Users\Fran\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\obj\Debug\net8.0\TP_Sistema-pedidos-comida-rapida.sourcelink.json
+C:\Users\Fran\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\obj\Debug\net8.0\TP_Sistema-pedidos-comida-rapida.dll
+C:\Users\Fran\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\obj\Debug\net8.0\refint\TP_Sistema-pedidos-comida-rapida.dll
+C:\Users\Fran\Documents\GitHub\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\TP_Sistema-pedidos-comida-rapida\obj\Debug\net8.0\TP_Sistema-pedidos-comida-rapida.pdb

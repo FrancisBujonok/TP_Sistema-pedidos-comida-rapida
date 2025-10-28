@@ -15,6 +15,7 @@ namespace TP_Sistema_pedidos_comida_rapida.Models
         public DateTime Fecha { get; set; }
         public string Estado {  get; set; }
         public decimal Total {  get; set; }
+
         public List<DetallePedido> Detalles = new List<DetallePedido>();
     }
 }

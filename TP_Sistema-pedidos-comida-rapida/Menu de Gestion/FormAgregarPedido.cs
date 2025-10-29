@@ -15,6 +15,7 @@ namespace Menu_de_Gestion
     public partial class FormAgregarPedido : Form
     {
         private Pedido _pedido;
+        private List<Producto> _listaProductos = new List<Producto>();
         public FormAgregarPedido(Pedido pedido)
         {
             InitializeComponent();
@@ -34,70 +35,78 @@ namespace Menu_de_Gestion
 
         private void FormAgregarPedido_Load(object sender, EventArgs e)
         {
+            TotalDetalle.ReadOnly = true;
             CargarComboProductos();
             CargarGrillaPedido();
+            _listaProductos = ProductoRepository.ObtenerProductos();
         }
 
         private void CargarGrillaPedido()
         {
-            dgvDetallePedido.DataSource = null;
-            dgvDetallePedido.DataSource = _pedido.Detalles;
+            var datos = _pedido.Detalles.Select(d => new
+            {
+                Id_Pedido = d.Id_Pedido,
+                Id_Producto = d.Id_Producto,
+                Cantidad = d.Cantidad,
+                PrecioUnitario = d.PrecioUnitario,
+                SubTotal = d.SubTotal
+
+            }).ToList();
+
+            dgvDetallePedido.DataSource = datos;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Producto producto = (Producto)ProductoDetalle.SelectedItem;
+            Producto productoSeleccionado = (Producto)ProductoDetalle.SelectedItem;
 
-            int cantidad;
-            if (!int.TryParse(CantidadDetalle.Text, out cantidad) || cantidad <= 0)
-            {
-                MessageBox.Show("Ingrese una cantidad válida.");
-                return;
-            }
+            int cantidad = (int)CantidadDetalle.Value;
 
-            // Verificamos que el producto tenga stock suficiente
-            if (cantidad > producto.Stock)
+            var producto = _listaProductos.FirstOrDefault(p => p.ID_Producto == productoSeleccionado.ID_Producto);
+            if(producto != null)
             {
-                MessageBox.Show($"La cantidad ingresada supera al stock disponible ({producto.Stock}).");
-                return;
-            }
-
-            // Si el producto ya está en el pedido, actualizamos su cantidad
-            var detalleExistente = _pedido.Detalles.FirstOrDefault(d => d.Id_Producto == producto.ID_Producto);
-            if (detalleExistente != null)
-            {
-                // Verificar que la nueva cantidad total no exceda el stock
-                if (detalleExistente.Cantidad + cantidad > producto.Stock)
+                if (cantidad > producto.Stock)
                 {
-                    MessageBox.Show($"No se puede agregar más de {producto.Stock} unidades en total.");
+                    MessageBox.Show($"No hay suficiente stock del producto seleccionado.stock: {producto.Stock}");
                     return;
                 }
+                else
+                {
+                    //verifico si el producto ya esta en la grilla.
+                    var detalleExistente = _pedido.Detalles.FirstOrDefault(d => d.Id_Producto == productoSeleccionado.ID_Producto);
+                    if (detalleExistente == null)
+                    {
+                        //Agrego nuevo detalle
+                        DetallePedido nuevodetalle = new DetallePedido
+                        {
+                            Id_Pedido = _pedido.Id,
+                            Id_Producto = productoSeleccionado.ID_Producto,
+                            Cantidad = cantidad,
+                            PrecioUnitario = productoSeleccionado.Precio,
+                        };
+                        _listaProductos.FirstOrDefault(p => p.ID_Producto == productoSeleccionado.ID_Producto).Stock -= cantidad;
+                        _pedido.Detalles.Add(nuevodetalle);
+                        _pedido.Total += nuevodetalle.SubTotal;
+                        TotalDetalle.Text = _pedido.Total.ToString("C");
 
-                detalleExistente.Cantidad += cantidad;
+                        CargarGrillaPedido();
+                    }
+                    else
+                    {
+                        //Actualizar la grilla.
+                        detalleExistente.Cantidad += cantidad;
+                        _listaProductos.FirstOrDefault(p => p.ID_Producto == productoSeleccionado.ID_Producto).Stock -= cantidad;
+                        _pedido.Total += detalleExistente.PrecioUnitario * cantidad;
+                        TotalDetalle.Text = _pedido.Total.ToString("C");
+                        CargarGrillaPedido();
+                    }
+                }
             }
             else
             {
-                // Crear nuevo detalle
-                DetallePedido detalle = new DetallePedido
-                {
-                    Id_Producto = producto.ID_Producto,
-                    Id_Cliente = _pedido.ClienteId,
-                    PrecioUnitario = producto.Precio,
-                    Cantidad = cantidad
-                };
-
-                _pedido.Detalles.Add(detalle);
+                MessageBox.Show("Producto no encontrado.");
+                return;
             }
-
-            // Restar del stock (opcional, si querés reflejarlo en el combo)
-            producto.Stock -= cantidad;
-
-            // Actualizar el total del pedido
-            _pedido.Total = _pedido.Detalles.Sum(d => d.SubTotal);
-            TotalDetalle.Text = _pedido.Total.ToString("C");
-
-            // Recargar la grilla
-            CargarGrillaPedido();
 
         }
 
@@ -110,7 +119,6 @@ namespace Menu_de_Gestion
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
             //no editable
-            TotalDetalle.ReadOnly = true;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -127,6 +135,8 @@ namespace Menu_de_Gestion
                 _pedido.Estado = "Completado";
                 _pedido.Fecha = DateTime.Now;
                 PedidoRepository.GuardarPedido(_pedido);
+                DetallePedidoRepository.GuardarTodosDetalles(_pedido);
+                ProductoRepository.ActualizarStock(_pedido);
                 MessageBox.Show("Pedido guardado con exito.");
                 //cerramos el menu
                 this.Close();

@@ -21,14 +21,5 @@ namespace TP_Sistema_pedidos_comida_rapida.Data
                 "Server=.;Database=Sistema-Pedido-Comida;Trusted_Connection=True;TrustServerCertificate=True;"
             );
         }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {  
-            modelBuilder.Entity<DetallePedido>()
-                .HasKey(d => new { d.Id_Cliente, d.Id_Producto });
-
-            // Forzar el nombre de tabla que existe en la BD
-            modelBuilder.Entity<Producto>().ToTable("Productos");
-        }
     }
 }

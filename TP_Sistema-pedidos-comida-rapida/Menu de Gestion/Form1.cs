@@ -1,5 +1,7 @@
+using Microsoft.Identity.Client;
 using TP_Sistema_pedidos_comida_rapida.Models;
 using TP_Sistema_pedidos_comida_rapida.Repository;
+using static TP_Sistema_pedidos_comida_rapida.Repository.ReporteRepository;
 
 namespace Menu_de_Gestion
 {
@@ -8,6 +10,7 @@ namespace Menu_de_Gestion
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -45,23 +48,16 @@ namespace Menu_de_Gestion
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            CargarReportes();
         }
         private void CargarReportes()
         {
-            // Reporte 1: Ventas por día
-            var ventasPorDia = TP_Sistema_pedidos_comida_rapida.Repository.ReporteRepository.ReportRepository.ObtenerVentasPorDia();
-            dataGridVentasDia.DataSource = ventasPorDia;
-
-            // Opcional: formato visual
-            dataGridVentasDia.Columns["Fecha"].DefaultCellStyle.Format = "dd/MM/yyyy";
-            dataGridVentasDia.Columns["TotalVendido"].DefaultCellStyle.Format = "C2";
-
-            // Reporte 2: Top 5 productos más vendidos
-            var topProductos = TP_Sistema_pedidos_comida_rapida.Repository.ReporteRepository.ReportRepository.ObtenerTopProductos();
+            //Vendido durante el dia.
+            var vendidoHoy = ReporteRepository.ObtenerPedidosHoy();
+            dataGridVentasDia.DataSource = vendidoHoy;
+            //Top 5 productos mas vendidos.
+            var topProductos = ReporteRepository.ObtenerTopProductos();
             dataGridTopProductos.DataSource = topProductos;
-
-            dataGridTopProductos.Columns["MontoTotal"].DefaultCellStyle.Format = "C2";
         }
 
     }

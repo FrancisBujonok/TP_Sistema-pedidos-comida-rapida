@@ -156,6 +156,12 @@ namespace Menu_de_Gestion
                             Stock = int.Parse(stockTexto);
                         }
                     }
+                    else
+                    {
+                        //El stock debe ser un número válido.
+                        MessageBox.Show("El stock debe ser un número válido.");
+                        break;
+                    }
                 }
 
                 Producto nuevoProducto = new Producto()

@@ -44,16 +44,20 @@ namespace TP_Sistema_pedidos_comida_rapida.Repository
                 context.SaveChanges();
             }
         }
-        public static void ActualizarCantidad(int cantidad, Producto producto)
+        public static void ActualizarStock(Pedido pedido)
         {
             using var context = new AplicationDbContext();
-            var prod = context.Productos.FirstOrDefault(p => p.ID_Producto == producto.ID_Producto);
-            if (prod != null)
-            {
-                prod.Stock -= cantidad;
-                context.SaveChanges();
-            }
 
+            foreach (var detalle in pedido.Detalles)
+            {
+                var producto = context.Productos.FirstOrDefault(p => p.ID_Producto == detalle.Id_Producto);
+                if (producto != null)
+                {
+                    producto.Stock -= detalle.Cantidad;
+                    context.Productos.Update(producto);
+                }
+            }
+            context.SaveChanges();
         }
     }
 }
